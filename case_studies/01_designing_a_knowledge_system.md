@@ -1,6 +1,9 @@
 # Designing a Personal Knowledge Management System
 
-[![A mindmap visualizing the knowledge management system. Click to view the interactive version.](https://pr-rithwik.github.io/ai-collaboration-playbook/mindmaps/01_knowledge_system_mindmap.png)](https://pr-rithwik.github.io/ai-collaboration-playbook/mindmaps/01_knowledge_system_mindmap.html)
+[![A mindmap visualizing the knowledge management system.](../mindmaps/01_knowledge_system_mindmap.png)](https://pr-rithwik.github.io/ai-collaboration-playbook/mindmaps/01_knowledge_system_mindmap.html)
+<p align="center">
+  <em>Click the image above to explore the full interactive mindmap.</em>
+</p>
 
 ### The Goal
 To design a complete, long-term knowledge management and recall system within a networked thought app (Capacities). The system needed to handle different types of notes, be scalable, and include a proactive, spaced repetition strategy for recall. The final system was designed over a 3-hour collaborative session with an AI.
