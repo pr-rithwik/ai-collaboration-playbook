@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"The Evergreen Knowledge System - A Blueprint","children":[{"content":"1. Information Architecture","children":[{"content":"\n<h3 data-lines=\"3,4\"><strong>Core Object Types</strong></h3>","children":[{"content":"<strong><code>Atomic Note</code> (Inbuilt)</strong>: For your own ideas (Concepts, Maps, Insights).","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"<strong><code>Source</code> (Custom)</strong>: For external materials.","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"<strong><code>Log Entry</code> (Custom)</strong>: For dated recall records.","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"<strong><code>Page</code> (Inbuilt)</strong>: For simple indexes like a Learning Journal.","children":[],"payload":{"tag":"li","lines":"7,8"}}],"payload":{"tag":"li","lines":"3,8"}},{"content":"\n<h3 data-lines=\"8,9\"><strong>The Six Note Roles (Distinguished by Tags)</strong></h3>","children":[{"content":"<code>Concept Note</code> -&gt; <code>#type/concept</code>","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"<code>Map Note</code> -&gt; <code>#type/map</code>","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"<code>Insight Note</code> -&gt; <code>#type/insight</code>","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"<code>Source Note</code> -&gt; <code>#type/source</code>","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"<code>Recall Entry</code> -&gt; <code>#type/recall-entry</code>","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"<code>Learning Journal</code> -&gt; <code>#type/learning-journal</code>","children":[],"payload":{"tag":"li","lines":"14,16"}}],"payload":{"tag":"li","lines":"8,16"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"2. Note Lifecycle &amp; Status","children":[{"content":"\n<h3 data-lines=\"17,18\"><strong>Status Tags</strong></h3>","children":[{"content":"<code>#status/fleeting</code> -&gt; New, unprocessed <code>Source Notes</code>.","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"<code>#status/processing</code> -&gt; <code>Concept/Map/Insight</code> notes under construction.","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"<code>#status/processed</code> -&gt; <code>Source Notes</code> that have been distilled.","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"<code>#status/evergreen</code> -&gt; Mature, reliable <code>Concept/Map/Insight</code> notes.","children":[],"payload":{"tag":"li","lines":"21,23"}}],"payload":{"tag":"li","lines":"17,23"}}],"payload":{"tag":"h2","lines":"16,17"}},{"content":"3. Core Workflows","children":[{"content":"\n<h3 data-lines=\"24,25\"><strong>Handling Large Sources (The Source Map Method)</strong></h3>","children":[{"content":"<strong>1. Create Hub:</strong> A <code>Map Note</code> to index the source (e.g., a course).","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"<strong>2. Create Spokes:</strong> Atomic <code>Source Notes</code> for each unit (e.g., per week/chapter).","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"<strong>3. Link Hub to Spokes</strong> for a clean Table of Contents.","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"<strong>4. Process Granularly</strong> one spoke at a time.","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"li","lines":"24,29"}},{"content":"\n<h3 data-lines=\"29,30\"><strong>The Recall &amp; Mastery Engine (SRS)</strong></h3>","children":[{"content":"<strong>The Dashboard:</strong> A page with views for &quot;Due Today&quot; &amp; &quot;Neglected Topics&quot;.","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"<strong>The &quot;Hub &amp; Spoke&quot; Model</strong>","children":[{"content":"<strong>Hub</strong>: A <code>Learning Journal</code> page (the index).","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"<strong>Spokes</strong>: Atomic <code>Recall Entry</code> notes (the practice sessions).","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"li","lines":"31,34"}},{"content":"<strong>The Recall Loop</strong>","children":[{"content":"1. Consult Dashboard to pick a topic.","children":[],"payload":{"tag":"li","lines":"35,36","listIndex":1}},{"content":"2. Perform &quot;Blank Slate&quot; Recall in a new <code>Recall Entry</code>.","children":[],"payload":{"tag":"li","lines":"36,37","listIndex":2}},{"content":"3. Conduct Gap Analysis.","children":[],"payload":{"tag":"li","lines":"37,38","listIndex":3}},{"content":"4. Update the <code>Learning Journal</code> Hub with a link to the new entry.","children":[],"payload":{"tag":"li","lines":"38,39","listIndex":4}},{"content":"5. Improve the master <code>Concept Note</code> &amp; update its tracker properties.","children":[],"payload":{"tag":"li","lines":"39,41","listIndex":5}}],"payload":{"tag":"li","lines":"34,41"}}],"payload":{"tag":"li","lines":"29,41"}}],"payload":{"tag":"h2","lines":"23,24"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
